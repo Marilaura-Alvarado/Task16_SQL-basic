@@ -68,4 +68,5 @@ WHERE flight_no IN (
         FROM Tickets
         WHERE (passenger_name = 'ELLA DMITRIEVA')
     )
-);
+)
+LIMIT 15;
